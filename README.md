@@ -2,6 +2,11 @@
 
 This project was developed as part of the **Capstone Graduation Project** in the **Patika+ Frontend Web Developer Program**. The project involves developing the frontend for a **Library Application**.
 
+## Live Link
+
+You can view the live application here:  
+[Live Project Link](https://inquisitive-gnome-30efd3.netlify.app/)
+
 ## Project Overview
 
 This application allows users to perform **CRUD** (Create, Read, Update, Delete) operations on **Publisher**, **Category**, **Book**, **Author**, and **Book Borrowing** data. Data is fetched from the backend API, and operations are performed with user-friendly notifications.
@@ -40,11 +45,6 @@ This application allows users to perform **CRUD** (Create, Read, Update, Delete)
 - Technologies for the design (CSS, Tailwind, Material, Bootstrap) are free to choose.
 - The project does not require responsiveness (only desktop design is necessary).
 - The backend and database are provided, and all actions (CRUD operations) should interact with the backend.
-
-## Live Link
-
-You can view the live application here:  
-[Live Project Link](https://inquisitive-gnome-30efd3.netlify.app/)
 
 ## Setup Instructions
 
