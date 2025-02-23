@@ -17,7 +17,7 @@ This application allows users to perform **CRUD** (Create, Read, Update, Delete)
 - **React Router**: Used for routing between different pages in the Single Page Application (SPA).
 - **Axios**: For making API calls to communicate with the backend.
 - **Docker**: The application is containerized using Docker for consistent development and production environments.
-- **CSS / Material / Bootstrap**: Frontend design was made using a combination of these styling frameworks (choice made by the developer).
+- **CSS**: Frontend design was made using a combination of these styling frameworks (choice made by the developer).
 - **Netlify**: The application is deployed live on Netlify.
 
 ## Features of the Application
@@ -35,16 +35,6 @@ This application allows users to perform **CRUD** (Create, Read, Update, Delete)
   - **Adding** new data
   - **Updating** existing data
   - **Deleting** data
-
-### Additional Requirements
-
-- All CRUD operations are done on the same page.
-- Users will be notified in case of successful or failed operations (without using `window.alert`).
-- A total of **5 sample entries** must be added for each data type.
-- No restrictions on layout or design (you can customize as needed).
-- Technologies for the design (CSS, Tailwind, Material, Bootstrap) are free to choose.
-- The project does not require responsiveness (only desktop design is necessary).
-- The backend and database are provided, and all actions (CRUD operations) should interact with the backend.
 
 ## Setup Instructions
 
