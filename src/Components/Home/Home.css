@@ -1,0 +1,87 @@
+/* General Styles */
+.home {
+  font-family: "Arial", sans-serif;
+  color: rgb(63, 59, 59);
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+}
+
+/* Hero Section */
+.hero-section {
+  padding: 20px;
+  max-width: 800px;
+}
+
+.hero-section h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  animation: fadeIn 3s ease-in-out;
+}
+
+/* Features Section */
+.features-section {
+  padding: 20px;
+  max-width: 1200px;
+}
+
+.features-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  animation: fadeIn 4s ease-in-out;
+}
+
+.features-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  background: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(66, 94, 61, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease,
+    background-color 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  background-color: rgba(180, 30, 30, 0.2); /* Slightly lighter on hover */
+}
+
+.feature-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.feature-card p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

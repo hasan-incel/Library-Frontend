@@ -1,0 +1,35 @@
+/* Navbar styling */
+.navbar {
+  position: fixed; /* Fixed at the top */
+  top: 0;
+  left: 0;
+  width: 100%; /* Ensure it spans the full width */
+  background-color: #333;
+  padding: 10px;
+  z-index: 1000; /* Ensure it's above other content */
+  margin: 0; /* Prevent any margin that could be causing misalignment */
+}
+
+/* Ensure navbar links are properly spaced */
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.navbar a:hover {
+  background-color: #555;
+  border-radius: 5px;
+}

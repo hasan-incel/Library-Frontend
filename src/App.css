@@ -1,0 +1,27 @@
+/* General Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  display: block; /* Prevent flex layout from affecting navbar */
+  min-height: 100vh;
+  padding-top: 80px; /* Ensure the content is pushed below the navbar (adjust to match navbar height) */
+}
+
+/* Wrapper around all content */
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding-top: 0; /* Remove any extra padding-top here */
+}
+
+/* Content Area Styling */
+.content {
+  padding: 20px;
+  width: 100%;
+  max-width: 1200px; /* Same width as navbar */
+  margin: 0 auto;
+  margin-top: 0; /* Reset margin-top */
+}

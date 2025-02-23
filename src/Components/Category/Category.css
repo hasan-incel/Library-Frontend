@@ -1,0 +1,122 @@
+/* Ensuring the body takes the full viewport height */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: flex-start; /* Align content to the top */
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Main container that holds all content */
+.category-container {
+  max-width: 1200px; /* Limiting max width */
+  width: 100%; /* Ensure full width */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers the content horizontally */
+  justify-content: flex-start; /* Aligns content to the top */
+  padding: 20px;
+  margin-top: 25px;
+}
+
+/* Styling for headings */
+.category-container h2 {
+  margin: 8px 0;
+  text-align: center;
+  font-size: 20px;
+}
+
+/* Form container styling */
+.form-container {
+  display: flex;
+  justify-content: center; /* Centers forms horizontally */
+  gap: 10px; /* Adds space between Add and Update forms */
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+/* Styling for individual input containers within the form */
+.form-container input {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 30%; /* Ensures inputs are proportional */
+}
+
+/* Button styling for both Add and Update forms */
+.form-container button {
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 25%; /* Ensures buttons are proportional */
+}
+
+.form-container button:hover {
+  background-color: #45a049;
+}
+
+/* Categories list container styling */
+.categories-list-container {
+  margin-top: 40px; /* Adds space between the form and table */
+  text-align: center; /* Ensures the table is centered horizontally */
+  width: 100%;
+}
+
+/* Table styling for the list */
+.categories-table {
+  width: 100%; /* Keep the table full width */
+  border-collapse: collapse;
+  margin: 0 auto;
+  table-layout: fixed; /* Keep table size consistent */
+}
+
+.categories-table th,
+.categories-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  word-wrap: break-word; /* Allow text to break inside cells if too long */
+}
+
+.categories-table th {
+  background-color: #f2f2f2;
+}
+
+.categories-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.categories-table button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+.delete-button {
+  background-color: red;
+  color: white;
+}
+
+.update-button {
+  background-color: blue;
+  color: white;
+}
+
+/* Alert message styling */
+.alert-message {
+  text-align: center;
+  margin-top: 25px;
+  padding: 10px;
+  background-color: #f44336;
+  color: white;
+  border-radius: 4px;
+}
